@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -uv *.html ../
+robocopy "$PWD" "$ (dirname $PWD)" *.html /XO /maxage:1 /njh /njs
