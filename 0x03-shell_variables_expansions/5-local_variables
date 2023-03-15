@@ -1,2 +1,2 @@
 #!/bin/bash
-( set -o posix ; set ) | less
+echo "$(set -o posix ; set | grep '^[^[:blank:]=]*=' | cut -d= -f1) $(set -o posix ; set | grep -E '^\w+\(\) \{' | sed 's/ {$//')"
