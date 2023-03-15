@@ -30,3 +30,6 @@ The script should display the number in base 10, followed by a new line
 
 The number in base 2 is stored in the environment variable BINARY
 The script should display the number in base 10, followed by a new line
+13. Write a script that prints a number with two decimal places, followed by a new line.
+
+The number will be stored in the environment variable NUM.
